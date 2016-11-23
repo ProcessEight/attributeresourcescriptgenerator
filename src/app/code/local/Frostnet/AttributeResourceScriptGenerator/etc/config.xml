@@ -10,6 +10,11 @@
             <frostnet_attributeresourcescriptgenerator>
                 <class>Frostnet_AttributeResourceScriptGenerator_Block</class>
             </frostnet_attributeresourcescriptgenerator>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_attribute_edit>Frostnet_AttributeResourceScriptGenerator_Block_Adminhtml_Catalog_Product_Attribute_Edit</catalog_product_attribute_edit>
+                </rewrite>
+            </adminhtml>
         </blocks>
         <helpers>
             <frostnet_attributeresourcescriptgenerator>
@@ -22,4 +27,15 @@
             </frostnet_attributeresourcescriptgenerator>
         </models>
     </global>
+    <admin>
+        <routers>
+            <frostnet_attributeresourcescriptgenerator>
+                <use>admin</use>
+                <args>
+                    <frontName>attributeresourcescriptgenerator</frontName>
+                    <module>Frostnet_AttributeResourceScriptGenerator</module>
+                </args>
+            </frostnet_attributeresourcescriptgenerator>
+        </routers>
+    </admin>
 </config>
