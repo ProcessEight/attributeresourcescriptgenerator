@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Frostnet_AttributeResourceScriptGenerator>
+            <version>1.0.0</version>
+        </Frostnet_AttributeResourceScriptGenerator>
+    </modules>
+    <global>
+        <blocks>
+            <frostnet_attributeresourcescriptgenerator>
+                <class>Frostnet_AttributeResourceScriptGenerator_Block</class>
+            </frostnet_attributeresourcescriptgenerator>
+        </blocks>
+        <helpers>
+            <frostnet_attributeresourcescriptgenerator>
+                <class>Frostnet_AttributeResourceScriptGenerator_Helper</class>
+            </frostnet_attributeresourcescriptgenerator>
+        </helpers>
+        <models>
+            <frostnet_attributeresourcescriptgenerator>
+                <class>Frostnet_AttributeResourceScriptGenerator_Model</class>
+            </frostnet_attributeresourcescriptgenerator>
+        </models>
+    </global>
+</config>

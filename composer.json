@@ -1,0 +1,12 @@
+{
+  "name": "sfrost2004/mage-attribute-script",
+  "description": "Adds a button to the Manage Attribute screen to generate an installer script for that attribute.",
+  "extra": {
+    "magento-root-dir": "www"
+  },
+  "require": {
+    "magento-hackathon/magento-composer-installer": "~3.0",
+    "aydin-hassan/magento-core-composer-installer": "~1.2",
+    "firegento/magento": "~1.9.3.1"
+  }
+}
